@@ -1,1 +1,0 @@
-# technologyonvikash.githb.io
