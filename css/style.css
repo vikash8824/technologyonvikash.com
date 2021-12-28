@@ -1,11 +1,17 @@
-body {
-    background: #eee
-}
 
 .header2 {
     font-family: "Montserrat", sans-serif;
     color: #8d97ad;
-    font-weight: 300
+    font-weight: 300;
+}
+.nav{
+    /* width: 100%; */
+    position: fixed;
+    float: left;
+}
+
+.left{
+    padding-left: 400px;
 }
 
 .header2.bg-success-gradiant {
@@ -14,7 +20,8 @@ body {
     background: -webkit-gradient(linear, left top, right top, from(#2cdd9b), to(#1dc8cc));
     background: -webkit-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
     background: -o-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
-    background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%)
+    background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
+    box-shadow: 0px 10px #cca31d;
 }
 
 .navbar-brand{
@@ -34,11 +41,11 @@ body {
 .header2 .h2-nav .navbar-nav .nav-item .nav-link {
     padding: 12px 0px;
     color: #ffffff;
-    font-weight: 400
+    font-weight: 400;
 }
 
 .header2 .h2-nav .navbar-nav .nav-item .nav-link:hover {
-    color: #263238
+    color: #d12960
 }
 
 .header2 .h2-nav .navbar-nav .nav-item {
@@ -77,8 +84,8 @@ body {
 
 .header2 .btn-dark:hover {
     color: #fff;
-    background-color: #23272b;
-    border-color: #1d2124
+    background-color: #d12960;
+    border-color: #d12960
 }
 
 .header2 .h2-nav .navbar-nav .nav-item .btn {
@@ -96,3 +103,87 @@ body {
     border-radius: 0.25rem;
     display: none
 }
+
+.imgtex{
+    position: absolute; 
+    top: 34%;
+    left: 10%;
+    font-size: 30px;
+    font-weight: 500;
+    color: #d12960;
+}
+
+.imgtex2{
+    position: absolute; 
+    top: 40%;
+    left: 10%;
+    font-size: 48px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+
+.line {
+      /* position: relative; */
+      position: absolute; 
+      top: 53%;
+      left: 10%;
+      width: 16em;
+      margin: 0 auto;
+      border-right: 2px solid rgba(255, 255, 255, 0.75);
+      font-size: 280%;
+      font-weight: 500;
+      white-space: nowrap;
+    color: #d12960;
+      overflow: hidden;transform: translateY(-50%);
+}
+
+/*Animation*/
+
+.anim-typewriter {
+      animation: typewriter 8s steps(40) 0.1s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+      from {
+            width: 0;
+      }
+      to {
+            width: 11.8em;
+      }
+}
+
+@keyframes blinkTextCursor {
+      from {
+            border-right-color: rgba(255, 255, 255, 0.75);
+      }
+      to {
+            border-right-color: transparent;
+      }
+}
+
+.manh{
+    color: black;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 140px;
+    text-align: center;
+}
+
+.comtex{
+    word-spacing: 7px;
+    font-size: 17px;
+}
+
+.web{
+    margin-top: 50px;
+}
+
+.webd{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 30px;
+}
+
