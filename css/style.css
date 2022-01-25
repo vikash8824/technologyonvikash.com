@@ -1,4 +1,6 @@
-
+a.navbar-brand.nav {
+    z-index: 1;
+}
 .header2 {
     font-family: "Montserrat", sans-serif;
     color: #8d97ad;
