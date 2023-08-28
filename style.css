@@ -377,6 +377,9 @@ section .title::after{
 .skills-content .right .mysql::before{
     width: 70%;
 }
+.skills-content .right .laravel::before{
+    width: 70%;
+}
 
 /* teams section styling */
 .teams .title::after{
